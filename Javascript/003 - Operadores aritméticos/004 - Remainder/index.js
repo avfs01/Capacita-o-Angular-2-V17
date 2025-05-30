@@ -1,0 +1,1 @@
+console.log(4%2); // retorna o resto da divisão
