@@ -1,0 +1,20 @@
+Tipagem estática
+
+TypeScript é uma linguagem de programação fortemente tipada que se baseia
+em Javascript, oferecendo melhores ferramentas em qualquer
+escala
+
+A tipagem estática ajuda a evitar erros de tempo de execução e aumenta a
+confiabilidade do código
+
+Além disso, a tipagem estática facilita a leitura e a manutenção
+do código, pois ajuda a entender melhor a estrutura de dados e as interações entre
+as partes do código
+
+Interoperabilidade
+
+Typescript é compatível com JavaScript e pode ser usado com a maioria das 
+bibliotecas e frameworks Javascrip existentes.
+
+Isso significa que os desenvolvedores podem usar Typescript em projetos
+existentes sem precisar mudar todo o código.
