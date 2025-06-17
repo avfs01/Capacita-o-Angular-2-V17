@@ -5,7 +5,7 @@ let numero: number = 123;
 numero = 321;
 
 let deuBom: boolean = false;
-deuBom = true;  // Corrigido o nome da variável
+deuBom = true;
 
 let aa = 12345;
 
