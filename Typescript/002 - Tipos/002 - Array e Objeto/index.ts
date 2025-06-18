@@ -1,4 +1,4 @@
-//  Estruturas de dados que armazenam coleções ordenadas de elementos do mesmo tipo (ou tipos diferentes, se permitido)
+// Arrays são estruturas de dados que armazenam coleções ordenadas de elementos do mesmo tipo (ou tipos diferentes, se permitido)
 
 /*
 SINTAXE:
@@ -8,8 +8,32 @@ let array1: tipo[] = [valor1, valor2, ...];
 
 // Forma genérica (alternativa)  
 let array2: Array<tipo> = [valor1, valor2, ...]; 
-
 */
+
+// Objetos em TypeScript, objetos podem ser tipados para garantir segurança e autocompletar.
+
+// Sintaxe: 
+
+/*
+// Forma implícita (inferência de tipo)  
+let pessoa = {  
+  nome: "João",  
+  idade: 30  
+};  
+
+// Forma explícita (com tipo definido)  
+let pessoa: { nome: string, idade: number } = {  
+  nome: "Maria",  
+  idade: 25  
+};  
+
+// Objeto vazio com tipo  
+let carro: { marca: string, ano: number } = {  
+  marca: "Toyota",  
+  ano: 2020  
+};  
+*/
+/*
 
 let array1: [object] = [
     {
@@ -46,3 +70,20 @@ let obj2: Array<{
 }];
 
 console.log(...obj2);
+
+// Usando Interface
+*/
+interface Produto {
+    id: number,
+    nome: string,
+    preco: number, 
+}
+
+let notebook: Produto = {
+    id: 1,
+    nome: "Dell Alienware",
+    preco: 9000
+};
+Object.values(notebook).forEach((valor) => {
+    console.log(valor);
+});
