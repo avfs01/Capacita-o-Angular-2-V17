@@ -1,3 +1,16 @@
+//  Estruturas de dados que armazenam coleções ordenadas de elementos do mesmo tipo (ou tipos diferentes, se permitido)
+
+/*
+SINTAXE:
+
+// Forma mais comum (recomendada)  
+let array1: tipo[] = [valor1, valor2, ...];  
+
+// Forma genérica (alternativa)  
+let array2: Array<tipo> = [valor1, valor2, ...]; 
+
+*/
+
 let array1: [object] = [
     {
     nome:"Denner Troquatte",
