@@ -26,8 +26,6 @@ enum Mes {
 }
 console.log(Mes.JAN) // retornando o valor de JAN com EnumNome.Valor
 
-
-
 const pessoa: {nome: string, mesAniversario:string} = {
     nome: "Antonio",
     mesAniversario: Mes.JUL,
