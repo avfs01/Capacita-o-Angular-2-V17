@@ -15,19 +15,19 @@ Pode ser acessada somente pela própria classe.
 */
 
 class  Privado {
-    private nome: string = "";
-    private idade: number = 0;
+    private _nome: string = "";
+    private _idade: number = 0;
 
     constructor(nome:string,idade:number){
-        this.nome = nome;
-        this.idade = idade;
+        this._nome = nome;
+        this._idade = idade;
     }
 
     public comer(comida: string){
-        return `O ${this.nome} comeu ${comida}`
+        return `O ${this._nome} comeu ${comida}`
     }
     protected fezAniversario(){
-        return `O ${this.nome} fez ${this.idade+1} anos`;
+        return `O ${this._nome} fez ${this._idade+1} anos`;
     }
 }
 
