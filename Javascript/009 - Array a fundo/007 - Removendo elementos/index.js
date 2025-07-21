@@ -14,4 +14,3 @@ console.table(arr);
 arr.pop(); // Remove o elemento do último índice
 console.log(arr.pop()); //mostra o valor que está sendo removido
 console.table(arr);
-

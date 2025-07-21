@@ -8,4 +8,4 @@ const x:  IPessoax = {
 console.log((x.nome));
 console.log(`Puxando ${Pessoa1.nome} no arquivo pessoa-2.ts`);
 
-import { Pessoa } from "./namespace-aninhado";
+import { Pessoa } from "./namespace-aninhado"; 

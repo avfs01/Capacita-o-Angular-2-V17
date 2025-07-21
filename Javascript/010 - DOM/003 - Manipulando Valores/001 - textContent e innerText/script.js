@@ -41,6 +41,6 @@ console.log(p.textContent);
 
 p.textContent = "Antonio Vitor" // texto com formatação e SEM html
 
-p.innerText = "Nome novo" // texto SEM formatação e SEM HTML
+p.innerText = "Antonio" // texto SEM formatação e SEM HTML
 
 p.innerHTML = "<strong> Novo nome </strong>" // texto COM HTML e COM formatações

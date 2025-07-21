@@ -38,3 +38,5 @@ const TentadoAcesso = new Privado("Antonio",23);
 // Usando TentandoAcesso.comer ele me permite, pois está declarada como public.
 
 // por boas práticas nomes de atributos private são declarados com underline na frente, exemplo: _textoPrivado: string =  "Insira o texto";
+
+
