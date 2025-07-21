@@ -14,8 +14,6 @@ Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
   
   https://www.udemy.com/course/curso-de-angular/?couponCode=2021PM25
   
-  
-
   Introduction to the Angular docs
   
   https://v17.angular.io/docs
@@ -23,3 +21,5 @@ Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
   TypeScript Documentation
   
   https://www.typescriptlang.org/docs/
+
+  https://angular.dev/
